@@ -1,0 +1,29 @@
+<!DOCTYPE html>>
+<html lang="en">
+    <head>
+        <title>Random Password Generator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <div class="box">
+            <h1>Random Password Generator</h1>
+
+            <div class="input">
+                <label for="pLength">Enter Password length then generate</label>
+                <input type="text" name="pLength" placeholder="Length" id="pLength">
+                <input type="text" name="password" placeholder="Your new Password" id="password" readonly>
+            </div>
+
+            <table>
+                <th><div id="button" class="btn1" onclick="genPassword()">Generate</div></th>
+                <th><a id="button" class="btn2" onclick="copyPassword()">Copy</a></th>
+            </table>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

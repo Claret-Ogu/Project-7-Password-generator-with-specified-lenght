@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 1px;
+    text-align: center;
+    font-size: 22px;
+    font-family: serif;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+label {
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+  
+}
+
+input {
+    padding: 20px;
+    border: black solid;
+    border-radius: 10px;
+    font-size: 22px;
+    height: 8px;
+    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input::placeholder {
+    font-size: 18px;
+    font-family: serif;
+
+}
+
+#pLength {
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#button {
+    font-family: serif;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    width: 155px;
+    height: 60px;
+    border: 2px solid rgba(20, 139, 250);
+    background-color: #0c81ee;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    margin-left: 90px;
+}
+
+#button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/*
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: serif;
+    color: black;
+}
+
+input {
+    padding: 20px;
+    border: black solid;
+    border-radius: 10px;
+    font-size: 22px;
+    height: 50px;
+    width: 400px;
+}
+
+input::placeholder {
+    font-size: 23px;
+    font-family: serif;
+}
+
+#button {
+    font-family: serif;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    width: 155px;
+    height: 60px;
+    border: 2px solid rgba(20, 139, 250);
+    background-color: #0c81ee;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    margin-left: 90px;
+}
+
+#button:hover {
+    color: white;
+    background-color: black;
+}
+
+*/
